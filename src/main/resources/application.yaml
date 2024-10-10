@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    kubernetes:
+      config:
+        name: my-config # Name of your ConfigMap
+        enabled: true
+        namespace: default # Update with your namespace if necessary
