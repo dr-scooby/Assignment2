@@ -24,7 +24,7 @@ public class Configz {
     @Value("${secretvalue}")
     private String secretValue;
 
-    @Value("${envvalue}")
+    @Value("${envirvariable}")
     private String envValue;
 
 

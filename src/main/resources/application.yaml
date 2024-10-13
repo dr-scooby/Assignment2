@@ -4,4 +4,4 @@ spring:
       config:
         name: jah-config # Name of your ConfigMap
         enabled: true
-        namespace: default # Update with your namespace if necessary
+        namespace: jismailns # Update with your namespace if necessary
