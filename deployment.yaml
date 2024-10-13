@@ -24,7 +24,7 @@ spec:
             - name:   secretvalue
               valueFrom:
                 secretKeyRef:
-                  name: my-secret
+                  name: jah-secret
                   key:     secretValue
             - name:   configValue
               valueFrom:
