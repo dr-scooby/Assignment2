@@ -14,17 +14,17 @@ public class Configz {
     private String username;
 
 
-    @Value("${configValue}")
+    @Value("${configvalue}")
     private String configValue;
 
     @Value("${message}")
     private String message;
 
 
-    @Value("${secretValue}")
+    @Value("${secretvalue}")
     private String secretValue;
 
-    @Value("${envValue}")
+    @Value("${envvalue}")
     private String envValue;
 
 

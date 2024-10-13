@@ -2,6 +2,6 @@ spring:
   cloud:
     kubernetes:
       config:
-        name: my-config # Name of your ConfigMap
+        name: jah-config # Name of your ConfigMap
         enabled: true
-        namespace: jismail # Update with your namespace if necessary
+        namespace: default # Update with your namespace if necessary

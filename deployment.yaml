@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: jismail2
+  namespace: default
   labels:
     app: jismail2
 spec:
@@ -27,8 +28,8 @@ spec:
                   key:     secretValue
             - name:   configValue
               valueFrom:
-                secretKeyRef:
-                  name: my-config
+                configMapKeyRef:
+                  name: jah-config
                   key:  configValue
 
 ---
@@ -43,5 +44,5 @@ spec:
   ports:
     - protocol: TCP
       port: 8080
-      nodePort: 30001
+      nodePort: 30000
       targetPort: 8080
