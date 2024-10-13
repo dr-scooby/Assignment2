@@ -32,7 +32,7 @@ spec:
                   name: jah-config
                   key:  configValue
             - name: envirVariable
-              value: environmentSnake
+              value: environment-Scooby
 
 ---
 apiVersion: v1

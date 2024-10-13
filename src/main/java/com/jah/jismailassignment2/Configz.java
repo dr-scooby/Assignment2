@@ -25,7 +25,7 @@ public class Configz {
     private String secretValue;
 
     @Value("${envirvariable}")
-    private String envValue;
+    private String envirVariable;
 
 
 
