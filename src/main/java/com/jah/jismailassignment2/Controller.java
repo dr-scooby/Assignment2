@@ -57,4 +57,13 @@ public class Controller {
         return conz.getEnvValue();
     }
 
+    @GetMapping("/all")
+    public String getAll(){
+        return "Configz{" +
+                "configValue='" + conz.getConfigValue() + '\'' +
+                ", message='" + conz.getMessage() + '\'' +
+                ", secretValue='" + conz.getSecretValue() + '\'' +
+                ", envValue='" + conz.getEnvValue() + '\'' +
+                '}';
+    }
 }

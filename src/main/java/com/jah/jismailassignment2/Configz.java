@@ -67,11 +67,11 @@ public class Configz {
     }
 
     public String getEnvValue() {
-        return envValue;
+        return envirVariable;
     }
 
     public void setEnvValue(String envValue) {
-        this.envValue = envValue;
+        this.envirVariable = envValue;
     }
 
     @Override
@@ -80,6 +80,7 @@ public class Configz {
                 "configValue='" + configValue + '\'' +
                 ", message='" + message + '\'' +
                 ", secretValue='" + secretValue + '\'' +
+                ", envValue='" + envirVariable + '\'' +
                 '}';
     }
 }
