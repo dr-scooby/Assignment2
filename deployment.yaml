@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: jismail2
-          image: hinurali/jismail2:jismail2
+          image: hinurali/jismailassignment2:jismailassignment2
           ports:
             - containerPort: 8080
           env:
@@ -39,6 +39,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: jismail2-service
+  namespace: jismailns
 spec:
   type: NodePort
   selector:
